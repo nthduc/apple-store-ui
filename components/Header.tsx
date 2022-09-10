@@ -32,8 +32,8 @@ function Header() {
       </div>
       <div className="flex items-center justify-center gap-x-4 md:w-1/5">
         <SearchIcon className="headerIcon" />
-      </div>
-      <Link href="/checkout">
+      
+        <Link href="/checkout">
           <div className="relative cursor-pointer">
             <span className="absolute -right-1 -top-1 z-50 flex h-4 w-4 items-center
             justify-center rounded-full bg-gradient-to-r from-pink-500 to-violin-500 text-[10px] text-white">
@@ -61,6 +61,7 @@ function Header() {
         // onClick={() => signIn()} 
         />
       )}
+       </div>
     </header>
   );
 }
