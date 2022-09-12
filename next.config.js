@@ -6,7 +6,8 @@ const nextConfig = {
   images: {
     domains: [
       "rb.gy",
-      "gravatar.com"
+      "gravatar.com",
+      "cdn.sanity.io"
     ],
   },
   sassOptions: {
